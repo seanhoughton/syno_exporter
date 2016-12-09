@@ -26,8 +26,8 @@ import (
 	"github.com/prometheus/common/log"
 	prom_version "github.com/prometheus/common/version"
 
-	"github.com/nlamirault/syno_exporter/syno"
-	"github.com/nlamirault/syno_exporter/version"
+	"./syno"
+	"./version"
 )
 
 const (

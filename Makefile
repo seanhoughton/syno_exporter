@@ -68,8 +68,11 @@ init: ## Install requirements
 	@go get -u github.com/Masterminds/rmvcsdir
 	@go get -u github.com/golang/lint/golint
 	@go get -u github.com/kisielk/errcheck
-	@go get -u golang.org/x/tools/cmd/oracle
+	#@go get -u golang.org/x/tools/cmd/oracle
 	@go get -u github.com/mitchellh/gox
+	@go get -u github.com/prometheus/common/version
+	@go get -u github.com/soniah/gosnmp
+	@go get -u github.com/Sirupsen/logrus
 
 .PHONY: deps
 deps: ## Install dependencies

@@ -23,7 +23,7 @@ import (
 	"github.com/prometheus/common/log"
 	"github.com/soniah/gosnmp"
 
-	"github.com/nlamirault/syno_exporter/syno/plugins"
+	"./plugins"
 )
 
 // Client defines the Synology SNMP client
