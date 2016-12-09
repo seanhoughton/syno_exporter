@@ -52,7 +52,7 @@ func NewClient(dsIP string, interval time.Duration) (*Client, error) {
 			Target:    dsIP,
 			Port:      161,
 			Community: "public",
-			Version:   gosnmp.Version1,
+			Version:   gosnmp.Version2c,
 			Timeout:   time.Duration(2) * time.Second,
 		},
 	}, nil
